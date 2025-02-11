@@ -2,3 +2,13 @@
     --Noir : #1E1E1E;
     --Blanc : #FFFFFF;
 }
+
+@font-face {
+    font-family: MermaidCaps;
+    src: url(../Font/Mermaid\ Swash\ Caps.ttf);
+}
+
+@font-face {
+    font-family: Mermaid;
+    src: url(../Font/Mermaid1001.ttf);
+}

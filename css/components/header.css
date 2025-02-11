@@ -1,0 +1,94 @@
+@import "../variables.css";
+
+.custom-logo{
+    width: 12.89vw;
+    height: 3.16vw;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+
+.site-header{
+    background: url('../../images/header-background.png');
+   height: 55.26vw;
+   width: 100%;
+}
+
+.logo-header {
+    background-color: var(--Blanc);
+    width: 90vw;
+    height: 4.42vw;
+    border-radius: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 3.68vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-menu-container{
+    margin-left: 75%;
+    margin-top: 1.70%;
+}
+
+#menu-item-16{
+    margin-left: 2.21vw;
+}
+
+#menu-item-16 a, #menu-item-8 a{
+    color: var(--Noir)
+}
+
+.Titre{
+    text-align: center;
+    margin-top: 18%;
+    color: var(--Black);
+    font-size: 4.42vw;
+    line-height:  3.31vw;
+    font-family: MermaidCaps;
+}
+
+.para-principal{
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.search-container {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.search-input {
+    width: 42.5vw;
+    padding: 1.06vw 1.42vw;
+    padding-right: 3.55vw;
+    font-size: 1.13vw;
+    box-shadow: 0 2px 5px var(--Black);
+}
+
+.search-input:focus {
+    box-shadow: 0 4px 10px var(--Black);
+    border-color: #d0d0d0;
+}
+
+.search-button {
+    position: absolute;
+    right: 0.36vw;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0.73vw;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.search-button:hover {
+    color: var(--Black);
+}
+
+.search-button svg {
+    width: 1.42vw;
+    height: 1.42vw;
+}
